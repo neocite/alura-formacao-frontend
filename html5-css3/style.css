@@ -1,0 +1,21 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+
+@media screen and (max-width:480px) {
+	main {
+		width: auto;
+		margin-left: 1rem;
+		margin-right: 1rem;
+	}
+}
+
+
+
+

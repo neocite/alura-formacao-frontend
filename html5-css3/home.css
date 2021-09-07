@@ -1,0 +1,62 @@
+.titulo {
+	margin-top: 2em;
+}
+
+.titulo h1 {
+	font-size: 2em;
+	font-weight: bolder;
+	text-align: left;
+}
+
+.barber-shop {
+	width: 5%;
+	float: left;
+	margin-right: 1em;
+	vertical-align: middle;
+}
+
+.titulo .conteudo {
+	margin-top: 1em;
+	line-height: 1.5em;
+}
+
+.titulo .conteudo p {
+	margin-top: 1em;
+}
+
+.titulo .conteudo p:nth-child(2)::first-letter {
+	font-weight: bolder;
+	font-size: 2em;
+}
+
+.conteudo strong {
+	font-weight: bolder;
+}
+
+.subtitulo {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	clear: left;
+}
+
+.subtitulo h2 {
+	font-size: 1.5em;
+	font-weight: bolder;
+}
+
+.subtitulo ul {
+	margin-top: 1em;
+	line-height: 1.5em;
+}
+
+.subtitulo ul li {
+	font-size: 1em;
+    color: #c78919;
+	font-weight: bold;
+
+}
+
+.subtitulo ul li::before {
+	content: "★";
+	margin-right: 0.25em;
+}

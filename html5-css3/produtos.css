@@ -1,0 +1,56 @@
+.produtos {
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    color: #c78919;
+    cursor: pointer;
+    border-color: #c78919;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+@media screen and (max-width:480px) {
+    .produtos {
+        text-align: left;
+    }
+
+    .produtos::before{
+        content: "Aqui é barba, cabelo e bigode";
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .produtos li {
+        display: block;
+        width: auto;
+        margin-bottom: 1em;
+        margin-top: 1em;
+    }
+}
